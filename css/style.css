@@ -1384,6 +1384,11 @@ header {
         }
 
         .b1,.b2, .b3, .b4, .b5, .b6{overflow:auto; max-height:17rem;}
+	
+	.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+    -ms-touch-action: auto;
+        touch-action: auto;
+	}
 
     /* parent{
       position: relative;
